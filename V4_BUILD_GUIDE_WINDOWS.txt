@@ -1,0 +1,15 @@
+IMPOSTER V4 — WINDOWS BUILD GUIDE
+
+1. Extract this ZIP to a NEW folder, for example Downloads\word-imposter-v4. Do not overwrite V2 or V3.
+2. Install Node.js LTS and Android Studio if not already installed.
+3. Open PowerShell in the extracted word-imposter-v4 folder.
+4. Run: npm install
+5. Run: npm run build
+6. Add Android only once: npx cap add android
+7. Sync web assets: npx cap sync android
+8. Open Android Studio: npx cap open android
+9. Build APK in Android Studio, or from the android folder run: .\gradlew.bat assembleDebug
+10. APK path: android\app\build\outputs\apk\debug\app-debug.apk
+
+The app ID is com.arshwadhwa.imposter.v4 and the visible app name is Imposter.
+This package is source only; no APK has been built in this environment.

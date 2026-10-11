@@ -1,0 +1,11 @@
+IMPOSTER V5 CHANGELOG
+- Premium dark-purple, warm-cream, and gold-accented interface polish.
+- Version/app ID: 5.0.0 / com.arshwadhwa.imposter.v5.
+- Database cleanup removes sentence-like entries; short words/2-3 word phrases preferred; longer real names and titles allowed.
+- Settings > Voting switch: OFF skips voting and tally; ON enables voting.
+- Hints are one word only, chosen from curated associations or a single-word entry from the same category.
+- Recent hint pairings are stored locally and avoided to make each new round/session vary.
+- App icon assets from the V4 fixes package are retained.
+
+To build on Windows: npm install; npm run build; npx cap add android (only if android folder does not exist); npx cap sync android; then in android run .\gradlew.bat assembleDebug.
+Keep existing V2/V3/V4 folders untouched. This ZIP is source, not an APK.

@@ -1,0 +1,11 @@
+import type { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.arshwadhwa.imposter.v3',
+  appName: 'Imposter',
+  webDir: 'www',
+  bundledWebRuntime: false,
+  android: { allowMixedContent: false }
+};
+
+export default config;

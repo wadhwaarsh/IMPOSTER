@@ -1,0 +1,8 @@
+{
+  "appId": "com.arshwadhwa.imposter.v5",
+  "appName": "Imposter",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  }
+}

@@ -1,0 +1,10 @@
+IMPOSTER V4 — FIX UPDATE
+1. New purple-and-cream detective icon assets are included.
+2. Imposter hints now show a single word, never a sentence. Common words use curated associations; other words fall back to a single-word entry from the selected category.
+3. Settings includes a persistent Show voting tally toggle. When off, the tally screen is skipped; when on, players can enter vote counts.
+4. About label updated to V4.
+After copying these files over your existing V4 source:
+  npm run build
+  npx cap sync android
+Android Studio > app > New > Image Asset can generate launcher icons from icon-512.png. Capacitor sync does not automatically replace Android launcher mipmap icons.
+Keep V2 and V3 untouched.
